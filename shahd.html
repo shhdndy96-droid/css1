@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic page settings -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shahd Abu Nada - Personal CV</title>
+
+  <style>
+    /* TODO 1: page and font */
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0f1018;
+      color: #e8e8e8;
+      line-height: 1.7;
+      margin: 0;
+      padding: 30px 15px;
+    }
+
+    /* TODO 6: container shadow */
+    .cv-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: #181a24;
+      border-radius: 10px;
+      box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    /* TODO 2: header with gradient */
+    .cv-header {
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      text-align: center;
+      padding: 40px 20px;
+      border-radius: 10px;
+    }
+
+    .cv-header h1 {
+      margin-top: 0;
+    }
+
+    /* TODO 7: round photo */
+    .cv-header img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #4caf50;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    h2 {
+      color: #4caf50;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #2c2f3f;
+      margin: 25px 0;
+    }
+
+    /* TODO 3: skills as tags */
+    .skills li {
+      display: inline-block;
+      list-style: none;
+      background: #2e7d32;
+      color: white;
+      margin: 5px;
+      padding: 5px 15px;
+      border-radius: 20px;
+    }
+
+    .skills {
+      padding: 0;
+    }
+
+    /* TODO 4: table */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid #3a3f52;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #2e7d32;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #20232f;
+    }
+
+    /* TODO 5: links */
+    a {
+      color: #4caf50;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #81c784;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<div class="cv-container">
+
+  <!-- ========== Header: Name and Photo ========== -->
+  <header class="cv-header">
+    <h1>Shahd Abu Nada</h1>
+    <p>Management Information Systems and Contemporary Commerce Student</p>
+
+    <img src="shahd.JPEG" alt="Personal photo of Shahd Abu Nada">
+  </header>
+
+  <hr>
+
+  <main>
+
+    <!-- ========== Personal Information ========== -->
+    <section>
+      <h2>Personal Information</h2>
+      <p><strong>Name:</strong> Shahd Abu Nada</p>
+      <p><strong>Age:</strong> 22 years old</p>
+      <p><strong>Major:</strong> Management Information Systems and Contemporary Commerce</p>
+    </section>
+
+    <hr>
+
+    <!-- ========== About Me ========== -->
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am a 22-year-old university student studying Management Information Systems
+        and Contemporary Commerce. I am interested in learning how technology supports
+        business and management. I enjoy learning new things, working with others,
+        and improving my skills step by step.
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- ========== Education ========== -->
+    <section>
+      <h2>Education</h2>
+      <h3>Bachelor's Degree in Management Information Systems and Contemporary Commerce</h3>
+      <p><strong>University:</strong> [Write your university name here]</p>
+      <p><strong>Expected Graduation Year:</strong> [Write the year here]</p>
+    </section>
+
+    <hr>
+
+    <!-- ========== Skills (Unordered List) ========== -->
+    <section>
+      <h2>Skills</h2>
+      <p>Suggested skills (can be edited):</p>
+      <ul class="skills">
+        <li>Communication</li>
+        <li>Teamwork</li>
+        <li>Time Management</li>
+        <li>Problem Solving</li>
+        <li>Basic Computer Skills</li>
+        <li>Microsoft Office (Basic)</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- ========== Career Objectives ========== -->
+    <section>
+      <h2>Career Objectives</h2>
+      <p>
+        I hope to develop my skills in management, technology, and commerce, and to
+        gain practical experience that will help me grow in a professional career.
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- ========== Courses & Activities (Ordered List) ========== -->
+    <section>
+      <h2>Courses &amp; Activities</h2>
+      <p>Examples (replace with your real courses and activities):</p>
+      <ol>
+        <li>[Course or workshop name 1]</li>
+        <li>[Course or workshop name 2]</li>
+        <li>[University activity or volunteer work]</li>
+      </ol>
+    </section>
+
+    <hr>
+
+    <!-- ========== Basic Data (Table) ========== -->
+    <section>
+      <h2>Basic Data Table</h2>
+      <table>
+        <tr>
+          <th>Field</th>
+          <th>Information</th>
+        </tr>
+        <tr>
+          <td>Name</td>
+          <td>Shahd Abu Nada</td>
+        </tr>
+        <tr>
+          <td>Age</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <td>Major</td>
+          <td>Management Information Systems and Contemporary Commerce</td>
+        </tr>
+      </table>
+    </section>
+
+    <hr>
+
+    <!-- ========== Contact Links ========== -->
+    <section>
+      <h2>Contact</h2>
+      <p>The values below are placeholders. Replace them with real information.</p>
+      <ul>
+        <li>Email: <a href="mailto:shahd.email@example.com">your.email@example.com</a></li>
+        <li>Phone: <a href="tel:+000000000000">12334567</a></li>
+        <li>
+          Useful learning website:
+          <a href="https://learn.microsoft.com/" target="_blank">Microsoft Learn</a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <hr>
+
+  <!-- ========== Footer ========== -->
+  <footer>
+    <p>&copy; Shahd Abu Nada - Personal CV</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
